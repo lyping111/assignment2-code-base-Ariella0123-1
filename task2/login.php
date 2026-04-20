@@ -45,11 +45,14 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username">
                 </div>
+                <br>
                 <div class="form-group">
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password">
                 </div>
-                <a href="register.php">did not have account, click me for register</a><br>
+                <br>
+                <a href="register.php">did not have account, click me for register</a>
+                <br>
                 <button type="submit" name="login">Login</button>
             </form>
         </div>

@@ -47,14 +47,17 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
                     <label>Username:</label>
                     <input type="text" name="username">
                 </div>
+                <br>
                 <div class="form-group">
                     <label>Password :</label>
                     <input type="password" name="password">
                 </div>
+                <br>
                 <div class="form-group">
                     <label>Comfirm Password :</label>
                     <input type="comfirm password" name="comfirm password">
                 </div>
+                <br>
                 <button type="submit" value="register">Register</button>
                 <br>
                 <a href="login.php">Login Page</a>
