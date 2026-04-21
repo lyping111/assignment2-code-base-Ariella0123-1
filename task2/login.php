@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $qry->bind_param("s",$username);
         $qry->execute();
         $result=$qry->get_result();
-        // if($result->num_rows>0){
+        if($result->num_rows>0){
             $user = $result->fetch_assoc();
             
             if (password_verify($password, $user['password'])) {
@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 </script>";
             }
         }
-    // }
+    }
 ?>
 
 <!DOCTYPE html>
