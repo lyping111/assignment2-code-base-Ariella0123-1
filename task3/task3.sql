@@ -42,7 +42,7 @@ INSERT INTO `task3`(
   `p_name`,
   `cbm`,
   `weight`
-)VALUES('2025/8/25','asd','qwe','zxc','qaz');
+)VALUES('2025/8/25','asd','qwe','20.3','32.2');
 
 UPDATE `task3` SET `CBM`='753' WHERE id=1
 
