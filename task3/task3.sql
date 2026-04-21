@@ -36,6 +36,18 @@ CREATE TABLE `task3` (
   `weight` decimal(10,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `task3`(
+  `r_date`,
+  `t_number`,
+  `p_name`,
+  `cbm`,
+  `weight`
+)VALUES('2025/8/25','asd','qwe','zxc','qaz');
+
+UPDATE `task3` SET `CBM`='753' WHERE id=1
+
+DELETE FORM `task3` WHERE id=1 
+
 --
 -- 转储表的索引
 --
